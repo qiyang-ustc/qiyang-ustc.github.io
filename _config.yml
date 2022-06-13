@@ -3,7 +3,7 @@ version: 1.1.9
 
 # Site settings 配置站点
 title: 'Qi Yang Blogs'
-description: '个人的一个技术博客站点，主要用于记录个人在学习过程中遇到的技术问题及解决方法、技术实验，以及一些比较有趣的事情。'
+description: 'Personal Homepage. Hope it could help you.'
 keyword: 'Qi Yang, Computational Physics, '
 url: 'https://qiyang-ustc.github.io/' # your host
 
@@ -93,6 +93,7 @@ sns:
   # google-scholar: 'https://scholar.google.com/citations?user=AUupIooAAAAJ'
   # researchgate: 'https://www.researchgate.net/profile/Shengzhou-Li'
   # ORCID: 'https://orcid.org/0000-0001-6973-3825'
+  zhihu: 'https://www.zhihu.com/people/Steinszero'
   github: 'https://github.com/qiyang-ustc'
   # linkedin: 'https://www.linkedin.com/in/shengzhouli/'
   # segmentfault: 'https://segmentfault.com/u/wuwozhonger'
