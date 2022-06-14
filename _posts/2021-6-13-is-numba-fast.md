@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "is Numba fast?"
-date:   2022-06-13 12:11:09 +0800
-categories: physics learning chinese
+title: 'is Numba fast?'
+date: 2022-06-13 18:12:15 +0800
+categories: physics programming
+pin: true
 ---
 
 In this post, we are going to talk about some basic operation in Julia, Python and C++. The code used are simple(so they are not optimized quite well...).

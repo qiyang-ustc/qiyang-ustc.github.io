@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "物理应该这么学(Physics done right! - Chinese only)"
-date:   2022-06-13 12:11:09 +0800
+title: '物理应该这么学(Physics done right! - Chinese only)'
+date: 2022-06-13 12:11:09 +0800
 categories: physics learning chinese
 ---
 
