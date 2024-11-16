@@ -25,3 +25,6 @@ extra_javascript:
 
 plugins:
   - blog
+
+site_url: https://qiyang-ustc.github.io/  # Your GitHub Pages URL
+repo_url: https://github.com/qiyang-ustc/qiyang-ustc.github.io  # Your GitHub Pages URL
