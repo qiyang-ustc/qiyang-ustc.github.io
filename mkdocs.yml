@@ -1,0 +1,27 @@
+site_name: Qi Yang's Academic Blog
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.suggest
+    
+nav:
+  - Home: index.md
+  - CV: cv.md
+  - Research:
+    - Publications: research/publications.md
+  - Blog: 
+    - blog/posts/mkdocs.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - blog
