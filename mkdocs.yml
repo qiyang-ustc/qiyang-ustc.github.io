@@ -4,20 +4,30 @@ theme:
   features:
     - navigation.tabs
     - search.suggest
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.sections
+  navigation_depth: 2
     
 nav:
   - Home: index.md
   - CV: cv.md
   - Research:
     - Publications: research/publications.md
-  - Blog: 
-    - blog/posts/mkdocs.md
+  - Blog/Overview: blog/index.md
+  - Blog/Posts:
+    - LMSVD: blog/lmsvd.md
+    - MkDocs: blog/mkdocs.md
 
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - toc:
+      permalink: true
+      toc_depth: 3
 
 extra_javascript:
   - javascripts/mathjax.js
