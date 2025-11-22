@@ -1,4 +1,4 @@
-# Welcome to Qi Yang's Academic Blog
+# Qi Yang – Tensor Network Methods & Quantum Many-Body Physics
 
 ## About Me
 
@@ -10,15 +10,11 @@ I am a Postdoctoral Researcher at the University of Amsterdam, working with [Pro
 - **Quantum Many-Body Systems**: Study of strongly correlated systems and quantum spin liquids
 - **Machine Learning**: Applications in physics, particularly differentiable programming
 
-## Recent Highlights
-
-- 🎓 Completed Ph.D. at Institute of Physics, Chinese Academy of Sciences (2024)
-- 💻 Developed several open-source tools for tensor network calculations
-- 🔬 Currently working on advanced tensor network methods at UvA
-
 ## Open Source Projects
 
-- [**Gaussian-fPEPS**](https://github.com/TensorBFS/Gaussian-fPEPS): Gaussian-fPEPS to generic fPEPS translator
+- [**QRCTM**](https://github.com/qiyang-ustc/QRCTM): Super-fast QRCTM algorithms for iPEPS contraction
+- [**Gaussian-fPEPS**](https://github.com/TensorBFS/Gaussian-fPEPS): Translate Gaussian-fPEPS to generic fPEPS
+- [**varbench**](https://github.com/varbench/varbench): Variational benchmarks for quantum many-body problems
 - [**TeneT.jl**](https://github.com/XingyuZhang2018/TeneT.jl): Two-dimensional infinite tensor network library
 
 ## Contact

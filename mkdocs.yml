@@ -1,4 +1,4 @@
-site_name: Qi Yang's Academic Blog
+site_name: Qi Yang - Tensor Network Methods & Quantum Many-Body Physics
 theme:
   name: material
   features:
@@ -15,6 +15,8 @@ nav:
   - CV: cv.md
   - Research:
     - Publications: research/publications.md
+  - Talk: talks.md
+  - Poster: posters.md
   - Blog/Overview: blog/index.md
   - Blog/Posts:
     - LMSVD: blog/lmsvd.md
