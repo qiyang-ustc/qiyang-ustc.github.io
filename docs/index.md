@@ -6,9 +6,9 @@ I am a **Postdoctoral Researcher** at the University of Amsterdam, working with 
 
 ## Research Interests
 
-- **Advancing a High-Performance iPEPS Toolbox**: Creating open-source tools to extend the boundaries of accurate simulation for 2D quantum matter.
+- **Advancing a High-Performance iPEPS Toolbox**: Creating **next-generation** open-source tools to extend the boundaries of accurate simulation for 2D quantum matter. (**QRCTM**,automatic differentiation,preconditioning)
 - **Parton Wavefunctions in Thermodynamic Limits**: Bringing field-theory-inspired and variational Monte Carlo (VMC) wavefunctions from finite-size lattices to the thermodynamic limit.
-- **Resolving Quantum Spin Liquids & Subtle Competitions**: Employing state-of-the-art iPEPS to discriminate between near-degenerate phases and pinpoint transitions in frustrated magnets.
+- **Resolving Quantum Spin Liquids & Subtle Competitions**: Employing state-of-the-art iPEPS to discriminate between near-degenerate phases and pinpoint transitions in frustrated magnets, especially in **near-gapless** regimes.
 
 ## Open Source Projects
 
