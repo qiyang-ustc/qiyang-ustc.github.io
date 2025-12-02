@@ -2,13 +2,13 @@
 
 ## About Me
 
-I am a Postdoctoral Researcher at the University of Amsterdam, working with [Prof. Philippe Corboz](https://staff.fnwi.uva.nl/p.r.corboz/index.htm). My research focuses on tensor networks and quantum many-body systems, with particular emphasis on developing novel computational methods and algorithms.
+I am a **Postdoctoral Researcher** at the University of Amsterdam, working with [Prof. Philippe Corboz](https://staff.fnwi.uva.nl/p.r.corboz/index.htm). 
 
 ## Research Interests
 
-- **Tensor Networks**: Development of efficient algorithms and novel applications
-- **Quantum Many-Body Systems**: Study of strongly correlated systems and quantum spin liquids
-- **Machine Learning**: Applications in physics, particularly differentiable programming
+- **Advancing a High-Performance iPEPS Toolbox**: Creating open-source tools to extend the boundaries of accurate simulation for 2D quantum matter.
+- **Parton Wavefunctions in Thermodynamic Limits**: Bringing field-theory-inspired and variational Monte Carlo (VMC) wavefunctions from finite-size lattices to the thermodynamic limit.
+- **Resolving Quantum Spin Liquids & Subtle Competitions**: Employing state-of-the-art iPEPS to discriminate between near-degenerate phases and pinpoint transitions in frustrated magnets.
 
 ## Open Source Projects
 
