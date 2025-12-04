@@ -12,7 +12,7 @@ I am a **Postdoctoral Researcher** at the University of Amsterdam, working with 
 
 ## Open Source Projects
 
-- [**QRCTM**](https://github.com/qiyang-ustc/QRCTM): Super-fast QRCTM algorithms for iPEPS contraction
+- [**QRCTM**](https://github.com/qiyang-ustc/QRCTM): Pedagogical, single-file, <300lines, super-fast, stable QRCTM algorithms for iPEPS contraction and optimization. 
 - [**Gaussian-fPEPS**](https://github.com/TensorBFS/Gaussian-fPEPS): Translate Gaussian-fPEPS to generic fPEPS
 - [**varbench**](https://github.com/varbench/varbench): Variational benchmarks for quantum many-body problems
 - [**TeneT.jl**](https://github.com/XingyuZhang2018/TeneT.jl): Two-dimensional infinite tensor network library
