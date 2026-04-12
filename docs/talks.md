@@ -6,6 +6,10 @@ title: Talks & Slides
 
 ## 2026
 
+- 2026-04-12 — QRCTM: scalable iPEPS simulation for frustrated quantum magnets  
+  The 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China.  
+  Slides: [QRCTM for Frustrated Quantum Magnets (PDF)](./talk/2026QMBC_QRCTM.pdf)
+
 - 2026-01-27 — Scalable iPEPS Simulations in the Era of AD and GPUs  
   Invited seminar talk, Ludwig Maximilian University of Munich, Germany.  
   Slides: [Scalable iPEPS Simulations (PDF)](./talk/2026LMU_iPEPS.pdf)

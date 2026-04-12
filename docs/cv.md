@@ -38,6 +38,9 @@ title: Curriculum Vitae
 
 ## Contributed talks
 
+- 2026-04-12: QRCTM: scalable iPEPS simulation for frustrated quantum magnets  
+  The 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China
+
 - 2025-10-10: Exploring the Ground States of Higher-Spin Kitaev Models via QR-Accelerated iPEPS simulation  
   A Panorama of Tensor Networks, Kraków, Poland
 
