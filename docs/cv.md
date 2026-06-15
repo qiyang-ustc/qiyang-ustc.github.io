@@ -34,9 +34,18 @@ title: Curriculum Vitae
 
 ## Grants
 
-- 2025.6 – 2026.7: **Principal Investigator**, EuroHPC Development Access Call. Awarded 3500 NVIDIA H100 GPU Hours.
+- 2025.6 – 2026.7: **Principal Investigator**, EuroHPC Development Access Call. Awarded 14,000 NVIDIA H100 GPU hours.
 
 ## Invited talks
+
+- May 2026: iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs<br>
+  Invited seminar, Hangzhou, China
+
+- Apr 2026: Scalable iPEPS Simulations in the Era of AD and GPUs<br>
+  Invited seminar, Hefei, China
+
+- Apr 2026: When Corners Meet Edges: Emergent Algebra in 2D TN Boundaries<br>
+  Invited seminar, Beijing, China
 
 - 2026-04-12: QRCTM: scalable iPEPS simulation for frustrated quantum magnets  
   The 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China
@@ -44,8 +53,8 @@ title: Curriculum Vitae
 - 2026-01-27: Scalable iPEPS Simulations in the Era of AD and GPUs  
   Invited seminar talk, Ludwig Maximilian University of Munich, Germany
 
-- 2026-01-14: Accelerating two-dimensional tensor network contractions using QR-decomposition  
-  Fixed-Point Optimization in Tensor Networks for Quantum Matter, Zurich, Switzerland
+- 2026-01-14: Accelerating two-dimensional tensor network contractions using QR-decompositions<br>
+  Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland
 
 ## Contributed talks
 

@@ -9,8 +9,9 @@ title: Publications
 ## Journal Articles
 
 ### 2026
-1. **Qi Yang**†, Philippe Corboz (2026). [Efficient iPEPS simulation on the honeycomb lattice via QR-based corner transfer matrix renormalization group](https://link.aps.org/doi/10.1103/9gmp-byx8). *Physical Review B* 113, 085109.
-2. Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Wei Tang (2026). [Accelerating two-dimensional tensor network optimization by preconditioning](https://link.aps.org/doi/10.1103/h396-yc28). *Physical Review B* 113, 125111.
+1. Yining Zhang†, **Qi Yang**†, Philippe Corboz (2026). [Accelerating two-dimensional tensor network contractions using QR decompositions](https://link.aps.org/doi/10.1103/ptls-kr9z). *Physical Review B* 113, L201106.
+2. **Qi Yang**†, Philippe Corboz (2026). [Efficient iPEPS simulation on the honeycomb lattice via QR-based corner transfer matrix renormalization group](https://link.aps.org/doi/10.1103/9gmp-byx8). *Physical Review B* 113, 085109.
+3. Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Wei Tang (2026). [Accelerating two-dimensional tensor network optimization by preconditioning](https://link.aps.org/doi/10.1103/h396-yc28). *Physical Review B* 113, 125111.
 
 ### 2025
 1. Yantao Wu, Zhehao Dai, Sajant Anand, Sheng-Hsuan Lin, **Qi Yang**, Lei Wang, Frank Pollmann, Michael P. Zaletel (2025). [Alternating and Gaussian Fermionic Isometric Tensor Network States](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.6.040324). *PRX Quantum* 6, 040324.
@@ -24,5 +25,4 @@ title: Publications
 ## E-prints
 
 ### 2025
-1. Yining Zhang†, **Qi Yang**†, Philippe Corboz (2025). [Accelerating two-dimensional tensor network contractions using QR-decompositions](https://arxiv.org/abs/2505.00494). *arXiv:2505.00494*.
-2. Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Yuchi He (2025). [Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models](https://arxiv.org/abs/2511.07415). *arXiv:2511.07415*.
+1. Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Yuchi He (2025). [Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models](https://arxiv.org/abs/2511.07415). *arXiv:2511.07415*.
