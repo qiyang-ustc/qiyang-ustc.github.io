@@ -24,5 +24,8 @@ title: Publications
 
 ## E-prints
 
+### 2026
+1. **Qi Yang** (2026). [Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states](https://arxiv.org/abs/2606.20522). *arXiv:2606.20522*.
+
 ### 2025
 1. Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Yuchi He (2025). [Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models](https://arxiv.org/abs/2511.07415). *arXiv:2511.07415*.
