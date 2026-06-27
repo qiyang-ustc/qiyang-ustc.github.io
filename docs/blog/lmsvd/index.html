@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LMSVD and Beyond, a technical note by Qi Yang and Philippe Corboz.">
+    <title>LMSVD and Beyond · Qi Yang</title>
+    <link rel="stylesheet" href="../../assets/site.css">
+    <script src="../../assets/site.js" defer></script>
+    <script>
+      window.MathJax = { tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]] } };
+    </script>
+    <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M7 9.5 16 5l9 4.5v13L16 27l-9-4.5v-13Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M7 9.5 16 15l9-5.5M16 15v12" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
+          <span>Qi Yang</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/research/publications/">Publications</a>
+          <a href="/talks/">Talks</a>
+          <a href="/posters/">Posters</a>
+          <a href="/blog/">Notes</a>
+          <a href="/cv/">CV</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <p class="section-kicker">2024-11-22 · Qi Yang, Philippe Corboz</p>
+      <h1>LMSVD and Beyond</h1>
+      <p>
+        LMSVD, or limited memory SVD, is a truncated SVD algorithm with practical value in tensor-network calculations. This note records a few ways to make it more useful when the sequence of matrices changes smoothly from one tensor-network iteration to the next.
+      </p>
+
+      <h2>Basics of LMSVD</h2>
+      <p>
+        LMSVD is built around two ideas. Partially reorthogonalization, derived from <a href="http://sun.stanford.edu/~rmunk/PROPACK/">PROPACK</a>, keeps orthogonalization costs controlled. LOBPCG applies block optimization to the SVD subproblem, such as finding the leading $k$ eigenvectors of $A^T A$ where $A = U S V^\dagger$.
+      </p>
+      <p>
+        In tensor networks, the same contraction or truncation problem often appears repeatedly with only small changes. If $A_i = U_i S_i V_i^\dagger$ and $A_{i+1}$ is nearby, previous Krylov information should not be thrown away.
+      </p>
+
+      <h2>Two acceleration ideas</h2>
+      <ol>
+        <li><strong>Krylov space initialization.</strong> Initialize the Krylov space through the <code>initY</code> parameter. For nearby matrices, the natural initialization is $Y = V$.</li>
+        <li><strong>Guard vector recycling.</strong> LMSVD uses guard vectors to compute the leading $k$ eigenvectors accurately. Instead of discarding the enlarged $(k + g)$-dimensional space after an iteration, recycle it into the next one.</li>
+      </ol>
+
+      <h2>Benchmarks</h2>
+      <figure>
+        <img src="/blog/asset/lmsvd/bench_2DIsing.png" alt="Classical 2D Ising model LMSVD benchmark">
+        <figcaption>Classical 2D Ising model benchmark. The minimum iteration count can dominate when the bulk tensor has small bond dimension.</figcaption>
+      </figure>
+      <figure>
+        <img src="/blog/asset/lmsvd/bench_Q5potts.png" alt="Classical q=5 vector Potts model LMSVD benchmark">
+        <figcaption>Classical q=5 vector Potts model benchmark. The optimized LMSVD path improves performance, though the gain is modest here.</figcaption>
+      </figure>
+
+      <h2>Outlook</h2>
+      <p>
+        The next useful checks are quantum bulk tensors and lower-level LMSVD source changes that reduce the minimum iteration requirement. A randomized one-iteration SVD can be faster, but the accuracy tradeoff needs to be tracked explicitly.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Qi Yang · Notes</p>
+        <div class="footer-links">
+          <a href="/blog/">All notes</a>
+          <a href="mailto:q.yang2@uva.nl">Email</a>
+          <a href="https://github.com/qiyang-ustc">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
