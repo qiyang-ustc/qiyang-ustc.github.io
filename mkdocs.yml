@@ -21,6 +21,7 @@ nav:
   - Poster: posters.md
   - Blog/Overview: blog/index.md
   - Blog/Posts:
+    - LLM Agentic Coding C++: blog/llm-agentic-coding-cpp-computational-physics.md
     - LMSVD: blog/lmsvd.md
     - MkDocs: blog/mkdocs.md
 
