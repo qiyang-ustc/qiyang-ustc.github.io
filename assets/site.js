@@ -28,10 +28,10 @@ if (canvas) {
   let frame = 0;
 
   const palette = {
-    line: "rgba(251, 252, 247, 0.15)",
-    lineHot: "rgba(111, 211, 200, 0.72)",
-    node: "rgba(251, 252, 247, 0.72)",
-    nodeHot: "rgba(111, 211, 200, 0.95)",
+    line: "rgba(21, 23, 19, 0.14)",
+    lineHot: "rgba(140, 51, 40, 0.45)",
+    node: "rgba(21, 23, 19, 0.42)",
+    nodeHot: "rgba(140, 51, 40, 0.72)",
   };
 
   function resize() {
@@ -106,7 +106,7 @@ if (canvas) {
     }
 
     ctx.globalAlpha = 0.8;
-    ctx.strokeStyle = "rgba(251, 252, 247, 0.16)";
+    ctx.strokeStyle = "rgba(21, 23, 19, 0.12)";
     ctx.strokeRect(width * 0.62, height * 0.16, Math.max(120, width / cols), Math.max(86, height * 0.16));
     ctx.restore();
 
