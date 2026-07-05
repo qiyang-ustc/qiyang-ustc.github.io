@@ -29,9 +29,9 @@ if (canvas) {
 
   const palette = {
     line: "rgba(251, 252, 247, 0.15)",
-    lineHot: "rgba(124, 228, 215, 0.7)",
+    lineHot: "rgba(111, 211, 200, 0.72)",
     node: "rgba(251, 252, 247, 0.72)",
-    nodeHot: "rgba(230, 92, 55, 0.95)",
+    nodeHot: "rgba(111, 211, 200, 0.95)",
   };
 
   function resize() {
