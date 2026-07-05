@@ -6,9 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -20,18 +18,33 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
         with:
-          path: ./docs
+          fetch-depth: 0
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      - name: Publish docs to gh-pages
+        run: |
+          set -euo pipefail
+
+          publish_dir="${RUNNER_TEMP}/publish"
+          worktree_dir="${RUNNER_TEMP}/gh-pages"
+
+          mkdir -p "$publish_dir"
+          cp -R docs/. "$publish_dir/"
+          find "$publish_dir" -name ".DS_Store" -delete
+          touch "$publish_dir/.nojekyll"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages
+          git worktree add --detach "$worktree_dir" origin/gh-pages
+          rsync -a --delete --exclude ".git" "$publish_dir"/ "$worktree_dir"/
+
+          cd "$worktree_dir"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No site changes to publish."
+          else
+            git commit -m "Deploy ${GITHUB_SHA}"
+            git push origin HEAD:gh-pages
+          fi
