@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A benchmark-driven note on Julia oracles, native C++ and CUDA kernels, and LLM agents as optimization collaborators.">
+    <title>C++ in Computational Physics in the Era of LLM Agentic Coding - Qi Yang</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../../assets/site.css">
+    <script src="../../assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M7 9.5 16 5l9 4.5v13L16 27l-9-4.5v-13Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M7 9.5 16 15l9-5.5M16 15v12" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
+          <span>Qi Yang</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/research/publications/">Publications</a>
+          <a href="/talks/">Talks</a>
+          <a href="/posters/">Posters</a>
+          <a href="/blog/" aria-current="page">Notes</a>
+          <a href="/cv/">CV</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="article">
+      <p class="section-kicker">2026-06-30 / Qi Yang</p>
+      <h1 class="long-title">C++ in Computational Physics in the Era of LLM Agentic Coding</h1>
+      <p class="lede">
+        High-performance computational physics has always faced a practical tension: the clearest algorithms are often written in high-level languages, while the fastest programs often need C++ and CUDA.
+      </p>
+
+      <p>
+        The truly expensive part is not writing code that runs. It is maintaining a highly specialized, difficult-to-extend, and difficult-to-verify high-performance implementation. Specialized code is fast, but its long-term cost is also high.
+      </p>
+      <p>
+        In the era of LLM agentic coding, this cost structure is beginning to change.
+      </p>
+
+      <h2>Julia as oracle</h2>
+      <p>
+        In this experiment, we used Julia implementations as oracles. KrylovKit.jl and TeneT.jl define the algorithmic behavior, numerical outputs, and correctness boundaries; the LLM agent then worked around these oracles to replace key linear algebra and VUMPS paths with specialized C++ and CUDA implementations.
+      </p>
+      <p>
+        Every optimization had to be validated against the oracle: matching outputs, passing residual checks, CPU against CPU, and GPU against GPU.
+      </p>
+
+      <figure>
+        <img src="/blog/asset/llm-agentic-coding/krylov_kernel_speedup.png" alt="KrylovKit C++ and KrylovKit Julia benchmark speedup">
+        <figcaption>KrylovKit.c compared with KrylovKit.jl. The measurement focuses on replacing the critical linear algebra path while preserving oracle behavior.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/blog/asset/llm-agentic-coding/tenet_vumps_speedup.png" alt="TeneT C++ and FastTeneT benchmark speedup">
+        <figcaption>TeneT.c and FastTeneT compared with TeneT.jl in the iPEPS-unified workflow.</figcaption>
+      </figure>
+
+      <h2>What matters</h2>
+      <p>
+        The most important point here is not that one implementation defeated another. On the contrary, this work relies on these excellent Julia packages as reliable oracles. I especially thank Jutho for KrylovKit.jl and Xingyu Zhang for TeneT.jl. If you use the code here, please directly cite their packages.
+      </p>
+      <p>
+        What I find truly exciting is this: LLM agents go beyond helping us write code. They can participate in profiling, bottleneck localization, kernel rewriting, validation design, and repeated iteration under strict oracle constraints.
+      </p>
+      <p>
+        Throughout the entire process, I did not manually write a single line of low-level implementation code; my role was to define the target, set the constraints, check correctness, and judge whether an optimization was genuinely meaningful.
+      </p>
+
+      <h2>For computational physics</h2>
+      <p>
+        Physicists can devote more attention to algorithms, models, convergence, and physical interpretation, while reducing the long-term burden imposed by low-level implementation details.
+      </p>
+      <p>
+        This is especially relevant on GPUs, where complex kernel cooperation, memory layout, and host/device scheduling are among the hardest parts to maintain. They can now be organized into a verifiable engineering optimization loop.
+      </p>
+      <p>
+        My view is direct: the two-language problem will not disappear immediately, but it will be redefined. High-level languages will be responsible for ideas and correctness, low-level languages will be responsible for performance, and the most painful migration and optimization steps in between will increasingly be carried out by LLM agents.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Qi Yang - Notes</p>
+        <div class="footer-links">
+          <a href="/blog/">All notes</a>
+          <a href="mailto:q.yang2@uva.nl">Email</a>
+          <a href="https://github.com/qiyang-ustc">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
