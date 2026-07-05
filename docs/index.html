@@ -38,22 +38,38 @@
 
     <main id="main">
       <section class="hero">
-        <canvas data-tensor-canvas aria-hidden="true"></canvas>
         <div class="hero-inner">
-          <div>
+          <div class="hero-copy">
             <p class="eyebrow">Tensor networks / iPEPS / scientific computing</p>
             <h1>
               <span class="hero-title-line">Qi</span>
               <span class="hero-title-line">Yang</span>
             </h1>
             <p class="hero-subtitle">
-              Postdoctoral researcher at the University of Amsterdam, building faster tensor-network algorithms for two-dimensional quantum matter.
+              Postdoctoral researcher at the University of Amsterdam. I build algorithms and code for tensor-network simulations of strongly correlated quantum matter.
             </p>
             <div class="hero-actions">
-              <a class="button primary" href="/research/publications/">Read publications</a>
-              <a class="button secondary" href="https://github.com/qiyang-ustc">GitHub</a>
+              <a class="button primary" href="/research/publications/">Publications</a>
+              <a class="button secondary" href="/cv/">CV</a>
             </div>
           </div>
+          <aside class="calculation-ledger" aria-label="Current research ledger">
+            <p class="ledger-title">current calculation log</p>
+            <a class="ledger-item" href="https://arxiv.org/abs/2606.20522">
+              <span>preprint</span>
+              <strong>Transfer-matrix functions for algebraically decaying interactions</strong>
+              <em>arXiv:2606.20522 / 9 pages / 6 figures</em>
+            </a>
+            <a class="ledger-item" href="https://link.aps.org/doi/10.1103/ptls-kr9z">
+              <span>published</span>
+              <strong>QR decompositions for two-dimensional tensor-network contractions</strong>
+              <em>Physical Review B 113, L201106</em>
+            </a>
+            <figure class="ledger-figure">
+              <img src="/blog/asset/llm-agentic-coding/krylov_kernel_speedup.png" alt="Krylov kernel benchmark trace">
+              <figcaption>Benchmark trace from the native-kernel optimization note.</figcaption>
+            </figure>
+          </aside>
         </div>
       </section>
 
@@ -61,7 +77,7 @@
         <div class="section-header">
           <div>
             <p class="section-kicker">Research map</p>
-            <h2>Algorithms with physical consequences.</h2>
+            <h2>Tensor-network algorithms, tested on hard models.</h2>
           </div>
           <p>
             The work sits where tensor-network numerics, high-performance linear algebra, and hard many-body physics meet.
@@ -96,9 +112,9 @@
         <div class="section-header">
           <div>
             <p class="section-kicker">Latest outputs</p>
-            <h2>Papers, code, talks.</h2>
+            <h2>Recent manuscripts, code, and talks.</h2>
           </div>
-          <p>Recent items are pulled forward so the homepage reads like a working research log, not a static biography.</p>
+          <p>Recent items stay close to citation form and computational detail.</p>
         </div>
         <div class="latest-strip">
           <article class="publication-card feature-paper">
