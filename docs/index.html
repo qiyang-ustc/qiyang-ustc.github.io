@@ -6,8 +6,8 @@
     <meta name="description" content="Qi Yang, postdoctoral researcher working on tensor networks, iPEPS, long-range interactions, and scientific computing.">
     <title>Qi Yang - Tensor Networks and Quantum Many-Body Physics</title>
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="assets/site.css?v=20260707a">
-    <script src="assets/site.js?v=20260707a" defer></script>
+    <link rel="stylesheet" href="assets/site.css?v=20260707b">
+    <script src="assets/site.js?v=20260707b" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -37,194 +37,142 @@
     </header>
 
     <main id="main">
-      <section class="hero">
-        <div class="hero-inner">
-          <div class="hero-copy">
-            <p class="eyebrow">Tensor networks / iPEPS / scientific computing</p>
-            <h1>
-              <span class="hero-title-line">Qi</span>
-              <span class="hero-title-line">Yang</span>
-            </h1>
-            <p class="hero-subtitle">
-              Postdoctoral researcher at the University of Amsterdam. I build algorithms and code for tensor-network simulations of strongly correlated quantum matter.
+      <section class="profile-hero">
+        <div class="profile-shell">
+          <div class="profile-main">
+            <p class="profile-role">Postdoctoral researcher, University of Amsterdam</p>
+            <h1>Qi Yang</h1>
+            <p class="profile-summary">
+              I develop tensor-network algorithms and scientific code for strongly correlated quantum matter, with a focus on iPEPS, long-range interactions, and scalable contractions.
             </p>
-            <div class="hero-actions">
+            <div class="profile-topics" aria-label="Research topics">
+              <span>Tensor networks</span>
+              <span>iPEPS</span>
+              <span>CTMRG</span>
+              <span>Long-range systems</span>
+              <span>Scientific computing</span>
+            </div>
+            <div class="profile-actions">
               <a class="button primary" href="/research/publications/">Publications</a>
               <a class="button secondary" href="/cv/">CV</a>
+              <a class="button secondary" href="mailto:q.yang2@uva.nl">Email</a>
             </div>
           </div>
-          <aside class="calculation-ledger" aria-label="Current research updates">
-            <p class="ledger-title">Research updates</p>
-            <a class="ledger-item" href="https://arxiv.org/abs/2606.20522">
-              <span>preprint</span>
-              <strong>Transfer-matrix functions for algebraically decaying interactions</strong>
-              <em>arXiv:2606.20522 / 9 pages / 6 figures</em>
-            </a>
-            <a class="ledger-item" href="https://link.aps.org/doi/10.1103/ptls-kr9z">
-              <span>published</span>
-              <strong>QR decompositions for two-dimensional tensor-network contractions</strong>
-              <em>Physical Review B 113, L201106</em>
-            </a>
-            <figure class="ledger-figure">
+          <aside class="profile-aside" aria-label="Current focus">
+            <h2>Current focus</h2>
+            <ul class="compact-list">
+              <li>Transfer-matrix functions for algebraically decaying interactions.</li>
+              <li>QR-based CTMRG and high-performance iPEPS workflows.</li>
+              <li>Benchmark-driven native kernels for tensor-network code.</li>
+            </ul>
+            <figure class="research-figure">
               <img src="/blog/asset/llm-agentic-coding/krylov_kernel_speedup.png" alt="Krylov kernel benchmark trace">
-              <figcaption>Benchmark trace from the native-kernel optimization note.</figcaption>
+              <figcaption>Krylov kernel benchmark trace from the native-kernel optimization note.</figcaption>
             </figure>
           </aside>
         </div>
       </section>
 
-      <section class="section" id="research">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker">Research map</p>
-            <h2>Tensor-network algorithms, tested on hard models.</h2>
-          </div>
-          <p>
-            The work sits where tensor-network numerics, high-performance linear algebra, and hard many-body physics meet.
-          </p>
-        </div>
-        <div class="research-grid">
-          <article class="research-card">
-            <span class="card-index">A01</span>
-            <div>
-              <h3>High-performance iPEPS</h3>
-              <p>QR-based CTMRG, automatic differentiation, GPU workflows, and preconditioned optimization for scalable two-dimensional simulations.</p>
-            </div>
-          </article>
-          <article class="research-card">
-            <span class="card-index">A02</span>
-            <div>
-              <h3>Long-range Hamiltonians</h3>
-              <p>Transfer-matrix matrix functions that avoid finite-pole surrogate Hamiltonians for algebraically decaying interactions.</p>
-            </div>
-          </article>
-          <article class="research-card">
-            <span class="card-index">A03</span>
-            <div>
-              <h3>Competing quantum phases</h3>
-              <p>Numerical evidence for quantum spin liquids, subtle phase boundaries, and near-gapless regimes in frustrated systems.</p>
-            </div>
-          </article>
-        </div>
-      </section>
+      <div class="content-shell">
+        <aside class="sidebar" aria-label="Profile links">
+          <section class="sidebar-section">
+            <h2>Links</h2>
+            <a href="https://t.ly/P9R_s">Google Scholar</a>
+            <a href="https://github.com/qiyang-ustc">GitHub</a>
+            <a href="/talks/">Talks</a>
+            <a href="/posters/">Posters</a>
+          </section>
+          <section class="sidebar-section">
+            <h2>Research areas</h2>
+            <p>Tensor-network methods, frustrated magnets, variational algorithms, numerical linear algebra, Julia and C++ kernels.</p>
+          </section>
+        </aside>
 
-      <section class="section" id="latest">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker">Latest outputs</p>
-            <h2>Recent manuscripts, code, and talks.</h2>
-          </div>
-          <p>Recent items stay close to citation form and computational detail.</p>
-        </div>
-        <div class="latest-strip">
-          <article class="publication-card feature-paper">
-            <div>
-              <p class="meta-label">arXiv:2606.20522 / 2026</p>
-              <h3><a href="https://arxiv.org/abs/2606.20522">Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states</a></h3>
-              <p>Direct summation of algebraic tails through connected transfer matrices, with Krylov matrix-function actions and stable gradients.</p>
+        <div class="content-main">
+          <section class="feed-section" id="publications">
+            <div class="feed-header">
+              <h2>Recent publications</h2>
+              <a href="/research/publications/">All publications</a>
             </div>
-            <a class="button primary" href="https://arxiv.org/pdf/2606.20522">PDF</a>
-          </article>
-          <div class="publication-list">
-            <article class="publication-card">
-              <div class="pub-meta"><span class="tag teal">Physical Review B</span><span>113, L201106</span></div>
-              <h3><a href="https://link.aps.org/doi/10.1103/ptls-kr9z">Accelerating two-dimensional tensor network contractions using QR decompositions</a></h3>
-              <p>Yining Zhang, Qi Yang, Philippe Corboz.</p>
-            </article>
-            <article class="publication-card">
-              <div class="pub-meta"><span class="tag teal">Physical Review B</span><span>113, 085109</span></div>
-              <h3><a href="https://link.aps.org/doi/10.1103/9gmp-byx8">Efficient iPEPS simulation on the honeycomb lattice via QR-based CTMRG</a></h3>
-              <p>Qi Yang, Philippe Corboz.</p>
-            </article>
-            <article class="publication-card">
-              <div class="pub-meta"><span class="tag teal">Talk</span><span>QMBC 2026</span></div>
-              <h3><a href="/talk/2026QMBC_QRCTM.pdf">QRCTM: scalable iPEPS simulation for frustrated quantum magnets</a></h3>
-              <p>The 14th Workshop on Quantum Many-Body Computation, Beijing.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="projects">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker">Open source</p>
-            <h2>Small tools, hard contractions.</h2>
-          </div>
-          <p>Projects emphasize inspectable implementations and reproducible numerics over opaque infrastructure.</p>
-        </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <span class="tag teal">iPEPS</span>
-            <h3>QRCTM</h3>
-            <p>Pedagogical single-file reference for QRCTM algorithms.</p>
-            <a href="https://github.com/qiyang-ustc/QRCTM">Repository</a>
-          </article>
-          <article class="project-card">
-            <span class="tag">fermions</span>
-            <h3>Gaussian-fPEPS</h3>
-            <p>Translate Gaussian fermionic PEPS into generic fPEPS workflows.</p>
-            <a href="https://github.com/TensorBFS/Gaussian-fPEPS">Repository</a>
-          </article>
-          <article class="project-card">
-            <span class="tag">benchmarks</span>
-            <h3>varbench</h3>
-            <p>Variational benchmarks for quantum many-body problems.</p>
-            <a href="https://github.com/varbench/varbench">Repository</a>
-          </article>
-          <article class="project-card">
-            <span class="tag">Julia</span>
-            <h3>TeneT.jl</h3>
-            <p>Two-dimensional infinite tensor network library.</p>
-            <a href="https://github.com/XingyuZhang2018/TeneT.jl">Repository</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="notes">
-        <div class="section-header">
-          <div>
-            <p class="section-kicker">Notes</p>
-            <h2>Numerical notes with plots attached.</h2>
-          </div>
-          <p>Technical writing stays close to algorithms, measurements, and implementation details.</p>
-        </div>
-        <div class="notes-layout">
-          <article class="note-card">
-            <figure>
-              <img src="/blog/asset/llm-agentic-coding/tenet_vumps_speedup.png" alt="Benchmark plot for TeneT VUMPS speedup with native kernels">
-            </figure>
-            <div class="note-content">
-              <span class="tag teal">2026-06-30</span>
-              <h3><a href="/blog/llm-agentic-coding-cpp-computational-physics/">C++ in Computational Physics in the Era of LLM Agentic Coding</a></h3>
-              <p>Julia oracles, native C++ and CUDA kernels, and LLM agents as optimization collaborators.</p>
+            <div class="result-list">
+              <article class="result-item">
+                <p class="result-meta">2026 preprint</p>
+                <h3><a href="https://arxiv.org/abs/2606.20522">Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states</a></h3>
+                <p>Qi Yang and collaborators. Direct summation of algebraic tails through connected transfer matrices, Krylov matrix-function actions, and stable gradients.</p>
+                <div class="result-links">
+                  <a href="https://arxiv.org/abs/2606.20522">arXiv:2606.20522</a>
+                  <a href="https://arxiv.org/pdf/2606.20522">PDF</a>
+                </div>
+              </article>
+              <article class="result-item">
+                <p class="result-meta">Physical Review B 113, L201106</p>
+                <h3><a href="https://link.aps.org/doi/10.1103/ptls-kr9z">Accelerating two-dimensional tensor network contractions using QR decompositions</a></h3>
+                <p>Yining Zhang, Qi Yang, Philippe Corboz. QR decompositions for faster and more stable two-dimensional tensor-network contractions.</p>
+                <div class="result-links">
+                  <a href="https://link.aps.org/doi/10.1103/ptls-kr9z">DOI</a>
+                  <a href="https://arxiv.org/abs/2505.00494">arXiv:2505.00494</a>
+                </div>
+              </article>
+              <article class="result-item">
+                <p class="result-meta">Physical Review B 113, 085109</p>
+                <h3><a href="https://link.aps.org/doi/10.1103/9gmp-byx8">Efficient iPEPS simulation on the honeycomb lattice via QR-based CTMRG</a></h3>
+                <p>Qi Yang, Philippe Corboz. A QR-based CTMRG workflow for scalable infinite PEPS simulations on the honeycomb lattice.</p>
+                <div class="result-links">
+                  <a href="https://link.aps.org/doi/10.1103/9gmp-byx8">DOI</a>
+                </div>
+              </article>
             </div>
-          </article>
-          <div class="note-list">
-            <a class="note-row" href="/blog/llm-agentic-coding-cpp-computational-physics/">
-              <img src="/blog/asset/llm-agentic-coding/krylov_kernel_speedup.png" alt="Krylov benchmark speedup plot">
-              <span>
-                <h3>C++ in Computational Physics in the Era of LLM Agentic Coding</h3>
-                <p>Benchmark-driven native-kernel optimization.</p>
-              </span>
-            </a>
-            <a class="note-row" href="/blog/lmsvd/">
-              <img src="/blog/asset/lmsvd/bench_Q5potts.png" alt="Benchmark plot for the q=5 vector Potts LMSVD experiment">
-              <span>
-                <h3>LMSVD and Beyond</h3>
+          </section>
+
+          <section class="feed-section" id="software">
+            <div class="feed-header">
+              <h2>Code and tools</h2>
+            </div>
+            <div class="compact-grid">
+              <article class="compact-card">
+                <h3><a href="https://github.com/qiyang-ustc/QRCTM">QRCTM</a></h3>
+                <p>Pedagogical single-file reference for QRCTM algorithms.</p>
+              </article>
+              <article class="compact-card">
+                <h3><a href="https://github.com/TensorBFS/Gaussian-fPEPS">Gaussian-fPEPS</a></h3>
+                <p>Translate Gaussian fermionic PEPS into generic fPEPS workflows.</p>
+              </article>
+              <article class="compact-card">
+                <h3><a href="https://github.com/varbench/varbench">varbench</a></h3>
+                <p>Variational benchmarks for quantum many-body problems.</p>
+              </article>
+              <article class="compact-card">
+                <h3><a href="https://github.com/XingyuZhang2018/TeneT.jl">TeneT.jl</a></h3>
+                <p>Two-dimensional infinite tensor network library.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="feed-section" id="notes">
+            <div class="feed-header">
+              <h2>Notes</h2>
+              <a href="/blog/">All notes</a>
+            </div>
+            <div class="result-list">
+              <article class="result-item">
+                <p class="result-meta">2026-06-30</p>
+                <h3><a href="/blog/llm-agentic-coding-cpp-computational-physics/">C++ in Computational Physics in the Era of LLM Agentic Coding</a></h3>
+                <p>Julia oracles, native C++ and CUDA kernels, and LLM agents as optimization collaborators.</p>
+              </article>
+              <article class="result-item">
+                <p class="result-meta">2024-11-22</p>
+                <h3><a href="/blog/lmsvd/">LMSVD and Beyond</a></h3>
                 <p>Low-rank approximations for nearby tensors.</p>
-              </span>
-            </a>
-            <a class="note-row" href="/blog/mkdocs/">
-              <img src="/blog/asset/lmsvd/bench_2DIsing.png" alt="Small benchmark plot used as an article thumbnail">
-              <span>
-                <h3>Why I use MkDocs to build my blog</h3>
+              </article>
+              <article class="result-item">
+                <p class="result-meta">2024-11-16</p>
+                <h3><a href="/blog/mkdocs/">Why I use MkDocs to build my blog</a></h3>
                 <p>A short note on tooling, Markdown, and math rendering.</p>
-              </span>
-            </a>
-          </div>
+              </article>
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer class="site-footer">
