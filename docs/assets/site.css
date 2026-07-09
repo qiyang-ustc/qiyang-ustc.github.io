@@ -345,7 +345,7 @@ textarea {
 }
 
 .page-hero p:not(.eyebrow),
-.home-intro p,
+.home-summary,
 .profile-summary,
 .hero-subtitle {
   max-width: 65ch;
@@ -360,6 +360,7 @@ textarea {
 .section-kicker,
 .meta-label,
 .page-label,
+.publication-note,
 .record-date,
 .paper-year,
 .talk-date,
@@ -380,6 +381,10 @@ textarea {
 .page-label {
   display: block;
   margin: 0 0 5px;
+}
+
+.publication-note {
+  margin: 8px 0 0;
 }
 
 .section,
@@ -1182,7 +1187,7 @@ a.tag.teal {
   }
 
   .page-hero p:not(.eyebrow),
-  .home-intro p,
+  .home-summary,
   .profile-summary,
   .hero-subtitle {
     font-size: 1rem;
