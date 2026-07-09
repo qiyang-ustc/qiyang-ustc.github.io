@@ -215,7 +215,7 @@ The rewritten stylesheet must define these component contracts with the stated b
 
 .page-hero, .home-intro { border-bottom: 1px solid var(--rule); }
 .page-hero-inner, .home-intro-inner { width: min(var(--measure), calc(100% - 40px)); margin: 0 auto; padding: 44px 0 34px; }
-.page-hero h1, .home-intro h1 { margin: 0; font-size: clamp(2.35rem, 5vw, 3.9rem); line-height: 1; letter-spacing: 0; }
+.page-hero h1, .home-intro h1 { margin: 0; font-size: 3.5rem; line-height: 1; letter-spacing: 0; }
 .page-hero p, .home-summary { max-width: 720px; color: var(--ink-soft); }
 
 .page-section, .home-section { width: min(var(--measure), calc(100% - 40px)); margin: 0 auto; padding: 38px 0; }
@@ -233,7 +233,7 @@ The rewritten stylesheet must define these component contracts with the stated b
 .paper-item.has-visual { grid-template-columns: 112px 180px minmax(0, 1fr); }
 
 .article { width: min(var(--reading), calc(100% - 40px)); margin: 0 auto; padding: 52px 0 72px; }
-.article h1 { margin: 10px 0 18px; font-size: clamp(2.2rem, 5vw, 3.5rem); line-height: 1.06; }
+.article h1 { margin: 10px 0 18px; font-size: 3.25rem; line-height: 1.06; }
 .article figure { margin: 28px 0; border: 0; border-radius: 0; background: transparent; }
 .article figcaption { padding: 8px 0 0; border: 0; color: var(--muted); font-size: 0.82rem; }
 ```
@@ -256,6 +256,8 @@ Add exact behavior at `860px` and `640px`:
   .nav-shell, .page-hero-inner, .home-intro-inner, .page-section, .home-section, .footer-inner, .article { width: min(100% - 24px, var(--measure)); }
   .record, .paper-item, .talk-card, .note-row, .poster-card, .paper-item.has-visual { grid-template-columns: 1fr; gap: 8px; }
   .paper-visual { width: 100%; }
+  .page-hero h1, .home-intro h1 { font-size: 2.35rem; }
+  .article h1 { font-size: 2.1rem; }
   .section-header, .record-heading, .footer-inner { align-items: flex-start; flex-direction: column; }
 }
 
