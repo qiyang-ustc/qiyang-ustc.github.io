@@ -8,6 +8,7 @@ title: Talks & Slides
 
 - 2026-07-27 — How to talk to the Wish Machine?<br>
   Harnessing Quantum 2026, online invited lecture (40 min).<br>
+  Abstract: Why do seemingly all-powerful wish machines so often cause trouble in fiction and myth? They misinterpret human intentions and fulfill wishes in unexpected ways. Similar failures arise in AI-driven scientific research: systems may optimize the wrong objective, exploit a benchmark, or rely on an outdated proxy. Avoiding them requires learning how to communicate with the "wish machine" in the right language. In this talk, I will share practical lessons from developing algorithms for quantum many-body systems and discuss how AI may reshape future algorithm design.<br>
   [Program](https://giggleliu.github.io/summer-school-2026/program)
 
 - May 2026 — iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs<br>

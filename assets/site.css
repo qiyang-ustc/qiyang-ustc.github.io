@@ -688,6 +688,12 @@ textarea {
   color: var(--ink-soft);
 }
 
+.record-abstract {
+  max-width: 65ch;
+  margin-top: 8px !important;
+  line-height: 1.58;
+}
+
 .record-date,
 .paper-year,
 .talk-date,
