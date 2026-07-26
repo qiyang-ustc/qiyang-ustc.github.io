@@ -38,6 +38,10 @@ title: Curriculum Vitae
 
 ## Invited talks
 
+- 2026-07-27: How to talk to the Wish Machine?<br>
+  Harnessing Quantum 2026, online invited talk.<br>
+  [Program](https://giggleliu.github.io/summer-school-2026/program)
+
 - May 2026: iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs<br>
   Invited seminar, Hangzhou, China
 
