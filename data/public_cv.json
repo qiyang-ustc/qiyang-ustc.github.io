@@ -1,0 +1,343 @@
+{
+  "updated": "5 November 2026",
+  "publications": [
+    {
+      "title": "Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states",
+      "url": "https://arxiv.org/abs/2606.20522",
+      "authors": "<strong>Qi Yang</strong>",
+      "year": "2026",
+      "links": [
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2606.20522"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2606.20522"
+        ]
+      ],
+      "citation": "arXiv:2606.20522 (2026)",
+      "status": "Preprint",
+      "authors_text": "Qi Yang",
+      "summary": "Direct evaluation of algebraic interaction tails through iMPS transfer-matrix functions, without replacing the Hamiltonian by a finite sum of exponentials."
+    },
+    {
+      "title": "Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models",
+      "url": "https://doi.org/10.1103/7q31-xxsd",
+      "authors": "Xing-Yu Zhang<sup>†</sup>, <strong>Qi Yang</strong><sup>†</sup>, Philippe Corboz, Jutho Haegeman, Yuchi He",
+      "year": "2026",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/7q31-xxsd"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2511.07415"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2511.07415"
+        ]
+      ],
+      "citation": "Physical Review Letters 137, 176502 (2026)",
+      "status": "Published",
+      "authors_text": "Xing-Yu Zhang†, Qi Yang†, Philippe Corboz, Jutho Haegeman, Yuchi He",
+      "summary": "Cross-validated tensor-network calculations identify distinct plaquette, topological dimer, and nontopological dimer orders in higher-spin Kitaev models."
+    },
+    {
+      "title": "Accelerating two-dimensional tensor network contractions using QR decompositions",
+      "url": "https://doi.org/10.1103/ptls-kr9z",
+      "authors": "Yining Zhang<sup>†</sup>, <strong>Qi Yang</strong><sup>†</sup>, Philippe Corboz",
+      "year": "2026",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/ptls-kr9z"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2505.00494"
+        ],
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2505.00494"
+        ]
+      ],
+      "citation": "Physical Review B 113, L201106 (2026)",
+      "status": "Published",
+      "authors_text": "Yining Zhang†, Qi Yang†, Philippe Corboz"
+    },
+    {
+      "title": "Accelerating two-dimensional tensor network optimization by preconditioning",
+      "url": "https://doi.org/10.1103/h396-yc28",
+      "authors": "Xing-Yu Zhang<sup>†</sup>, <strong>Qi Yang</strong><sup>†</sup>, Philippe Corboz, Jutho Haegeman, Wei Tang",
+      "year": "2026",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/h396-yc28"
+        ]
+      ],
+      "citation": "Physical Review B 113, 125111 (2026)",
+      "status": "Published",
+      "authors_text": "Xing-Yu Zhang†, Qi Yang†, Philippe Corboz, Jutho Haegeman, Wei Tang"
+    },
+    {
+      "title": "Efficient iPEPS simulation on the honeycomb lattice via QR-based corner transfer matrix renormalization group",
+      "url": "https://doi.org/10.1103/9gmp-byx8",
+      "authors": "<strong>Qi Yang</strong>, Philippe Corboz",
+      "year": "2026",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/9gmp-byx8"
+        ]
+      ],
+      "citation": "Physical Review B 113, 085109 (2026)",
+      "status": "Published",
+      "authors_text": "Qi Yang, Philippe Corboz",
+      "summary": "A QR-based CTMRG method tailored to the honeycomb lattice resolves the gapless Kitaev spin liquid and its algebraic dimer correlations."
+    },
+    {
+      "title": "Alternating and Gaussian Fermionic Isometric Tensor Network States",
+      "url": "https://doi.org/10.1103/8ypw-c8t4",
+      "authors": "Yantao Wu, Zhehao Dai, Sajant Anand, Sheng-Hsuan Lin, <strong>Qi Yang</strong>, Lei Wang, Frank Pollmann, Michael P. Zaletel",
+      "year": "2025",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/8ypw-c8t4"
+        ]
+      ],
+      "citation": "PRX Quantum 6, 040324 (2025)",
+      "status": "Published",
+      "authors_text": "Yantao Wu, Zhehao Dai, Sajant Anand, Sheng-Hsuan Lin, Qi Yang, Lei Wang, Frank Pollmann, Michael P. Zaletel"
+    },
+    {
+      "title": "Variational benchmarks for quantum many-body problems",
+      "url": "https://doi.org/10.1126/science.adg9774",
+      "authors": "Dian Wu, Riccardo Rossi, Filippo Vicentini, Nikita Astrakhantsev, Federico Becca, Xiaodong Cao, Juan Carrasquilla, Francesco Ferrari, Antoine Georges, Mohamed Hibat-Allah, Masatoshi Imada, Andreas M Läuchli, Guglielmo Mazzola, Antonio Mezzacapo, Andrew Millis, Javier Robledo Moreno, Titus Neupert, Yusuke Nomura, Jannes Nys, Olivier Parcollet, Rico Pohle, Imelda Romero, Michael Schmid, J Maxwell Silvester, Sandro Sorella, Luca F Tocchio, Lei Wang, Steven R White, Alexander Wietek, <strong>Qi Yang</strong>, Yiqi Yang, Shiwei Zhang, Giuseppe Carleo",
+      "year": "2024",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1126/science.adg9774"
+        ]
+      ],
+      "citation": "Science 386, 296-301 (2024)",
+      "status": "Published",
+      "authors_text": "Dian Wu, Riccardo Rossi, Filippo Vicentini, Nikita Astrakhantsev, Federico Becca, Xiaodong Cao, Juan Carrasquilla, Francesco Ferrari, Antoine Georges, Mohamed Hibat-Allah, Masatoshi Imada, Andreas M Läuchli, Guglielmo Mazzola, Antonio Mezzacapo, Andrew Millis, Javier Robledo Moreno, Titus Neupert, Yusuke Nomura, Jannes Nys, Olivier Parcollet, Rico Pohle, Imelda Romero, Michael Schmid, J Maxwell Silvester, Sandro Sorella, Luca F Tocchio, Lei Wang, Steven R White, Alexander Wietek, Qi Yang, Yiqi Yang, Shiwei Zhang, Giuseppe Carleo"
+    },
+    {
+      "title": "Projected d-wave superconducting state: A fermionic projected entangled pair state study",
+      "url": "https://doi.org/10.1103/PhysRevB.107.125128",
+      "authors": "<strong>Qi Yang</strong>, Xing-Yu Zhang, Hai-Jun Liao, Hong-Hao Tu, Lei Wang",
+      "year": "2023",
+      "links": [
+        [
+          "DOI",
+          "https://doi.org/10.1103/PhysRevB.107.125128"
+        ]
+      ],
+      "citation": "Physical Review B 107, 125128 (2023)",
+      "status": "Published",
+      "authors_text": "Qi Yang, Xing-Yu Zhang, Hai-Jun Liao, Hong-Hao Tu, Lei Wang"
+    }
+  ],
+  "talks": [
+    {
+      "date": "2026-07-27",
+      "title": "How to talk to the Wish Machine?",
+      "venue": "Harnessing Quantum 2026, online invited lecture (40 min).",
+      "links": [
+        [
+          "Program",
+          "https://giggleliu.github.io/summer-school-2026/program"
+        ]
+      ],
+      "abstract": "<p class=\"record-abstract\"><em>Abstract. Why do seemingly all-powerful wish machines so often cause trouble in fiction and myth? They misinterpret human intentions and fulfill wishes in unexpected ways. Similar failures arise in AI-driven scientific research: systems may optimize the wrong objective, exploit a benchmark, or rely on an outdated proxy. Avoiding them requires learning how to communicate with the \"wish machine\" in the right language. In this talk, I will share practical lessons from developing algorithms for quantum many-body systems and discuss how AI may reshape future algorithm design.</em></p>",
+      "category": "invited"
+    },
+    {
+      "date": "May 2026",
+      "title": "iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs",
+      "venue": "Invited seminar, Hangzhou, China.",
+      "links": [],
+      "abstract": "",
+      "category": "invited"
+    },
+    {
+      "date": "Apr 2026",
+      "title": "Scalable iPEPS Simulations in the Era of AD and GPUs",
+      "venue": "Invited seminar, Hefei, China.",
+      "links": [],
+      "abstract": "",
+      "category": "invited"
+    },
+    {
+      "date": "Apr 2026",
+      "title": "When Corners Meet Edges: Emergent Algebra in 2D TN Boundaries",
+      "venue": "Invited seminar, Beijing, China.",
+      "links": [],
+      "abstract": "",
+      "category": "invited"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "QRCTM: scalable iPEPS simulation for frustrated quantum magnets",
+      "venue": "Invited presentation, 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China.",
+      "links": [
+        [
+          "Slides",
+          "/talk/2026QMBC_QRCTM.pdf"
+        ]
+      ],
+      "abstract": "",
+      "category": "invited"
+    },
+    {
+      "date": "2026-01-27",
+      "title": "Scalable iPEPS Simulations in the Era of AD and GPUs",
+      "venue": "Invited seminar talk, Ludwig Maximilian University of Munich, Germany.",
+      "links": [
+        [
+          "Slides",
+          "/talk/2026LMU_iPEPS.pdf"
+        ]
+      ],
+      "abstract": "",
+      "category": "invited"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Accelerating two-dimensional tensor network contractions using QR-decompositions",
+      "venue": "Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.",
+      "links": [
+        [
+          "Slides",
+          "/talk/2026FIXNET.pdf"
+        ]
+      ],
+      "abstract": "",
+      "category": "workshop"
+    },
+    {
+      "date": "2025-10-10",
+      "title": "Exploring the Ground States of Higher-Spin Kitaev Models via QR-Accelerated iPEPS simulation",
+      "venue": "A Panorama of Tensor Networks, Krakow, Poland.",
+      "links": [
+        [
+          "Slides",
+          "/talk/QRCTMforHoneycomb.pdf?v=20251122"
+        ]
+      ],
+      "abstract": "",
+      "category": "contributed"
+    }
+  ],
+  "appointments": [
+    [
+      "Sep 2024 - present",
+      "Postdoctoral researcher",
+      "University of Amsterdam, Institute for Theoretical Physics. Supervisor: Philippe Corboz."
+    ],
+    [
+      "Sep 2019 - Jun 2024",
+      "Ph.D. in Theoretical Physics",
+      "Institute of Physics, Chinese Academy of Sciences. Advisor: Lei Wang. Thesis: Construction and contraction of two-dimensional tensor networks."
+    ],
+    [
+      "Sep 2015 - Jun 2019",
+      "B.Sc. in Theoretical Physics",
+      "University of Science and Technology of China. Advisor: Youjin Deng. GPA: 3.79/4.3."
+    ]
+  ],
+  "mentoring": [
+    [
+      "2024 - present",
+      "Yining Zhang, Ph.D. co-supervision",
+      "University of Amsterdam; jointly with Philippe Corboz."
+    ],
+    [
+      "2025 - present",
+      "Willem Herter, M.Sc. co-supervision",
+      "University of Amsterdam; jointly with Philippe Corboz."
+    ]
+  ],
+  "funding": [
+    [
+      "2025 - 2026",
+      "Principal Investigator, EuroHPC Development Access",
+      "Awarded 14,000 NVIDIA H100 GPU hours for large-scale tensor-network simulations."
+    ]
+  ],
+  "software": [
+    {
+      "name": "QRCTM",
+      "url": "https://github.com/qiyang-ustc/QRCTM",
+      "description": "Reference implementation of QR-based CTMRG for efficient iPEPS contractions."
+    },
+    {
+      "name": "omeinsum",
+      "url": "https://github.com/qiyang-ustc/omeinsum",
+      "description": "PyTorch tensor contractions with slicing, checkpointing, path optimization, and multi-GPU dispatch."
+    },
+    {
+      "name": "jaxctmrg",
+      "url": "https://github.com/qiyang-ustc/jaxctmrg",
+      "description": "Pedagogical CTMRG implementation with automatic differentiation in JAX."
+    },
+    {
+      "name": "Gaussian-fPEPS",
+      "url": "https://github.com/TensorBFS/Gaussian-fPEPS",
+      "description": "Tools for translating Gaussian fermionic PEPS into generic fPEPS."
+    },
+    {
+      "name": "varbench",
+      "url": "https://github.com/varbench/varbench",
+      "description": "Collaborative benchmarks of variational methods for quantum many-body problems."
+    },
+    {
+      "name": "TeneT.jl",
+      "url": "https://github.com/XingyuZhang2018/TeneT.jl",
+      "description": "Julia library for two-dimensional infinite tensor networks."
+    }
+  ],
+  "awards": [
+    [
+      "2022",
+      "Outstanding Scholarship, IOP, Excellent Prize (top 10%)"
+    ],
+    [
+      "2019",
+      "Outstanding Students Scholarship, IOP, B-class"
+    ],
+    [
+      "2018",
+      "Competition of Physical Experiments, USTC, Premium Prize"
+    ],
+    [
+      "2017",
+      "Academic Scholarship, USTC, Silver Prize"
+    ],
+    [
+      "2016",
+      "Academic Scholarship, USTC, Bronze Prize"
+    ],
+    [
+      "2014",
+      "Chinese Physics Olympiad, Anhui, First Prize; Chinese Mathematics Olympiad, Anhui, Second Prize"
+    ]
+  ],
+  "research": [
+    [
+      "Long-range systems",
+      "I develop variational iMPS methods that sum algebraically decaying interactions directly through transfer-matrix functions. This connects numerical linear algebra and stable differentiation to the study of long-range quantum systems and criticality."
+    ],
+    [
+      "Two-dimensional quantum matter",
+      "I develop scalable iPEPS contraction and optimization algorithms, including QR-based CTMRG and preconditioning, and use them to study frustrated magnets, spin liquids, and the interplay of topological and symmetry-breaking orders."
+    ]
+  ]
+}
