@@ -1,109 +1,199 @@
 ---
-title: Curriculum Vitae
+title: Qi Yang, Ph.D.
 ---
+
+Curriculum vitae
 
 # Qi Yang, Ph.D.
 
-## Personal Information
-- **Date of Birth**: August 5th, 1997
-- **Nationality**: China
-- **Email**: [q.yang2@uva.nl](mailto:q.yang2@uva.nl)
-- **GitHub**: [github.com/qiyang-ustc](https://github.com/qiyang-ustc)
-- **Google Scholar**: [Profile](https://t.ly/P9R_s)
+Postdoctoral researcher at the University of Amsterdam, working with Philippe Corboz on tensor-network methods for quantum many-body physics.
 
-## Education
+Amsterdam, The Netherlands · Updated 5 November 2026
 
-### Doctor in Theoretical Physics
-- Institute of Physics, Chinese Academy of Sciences, Beijing
-- 2019.9 – 2024.6
-- Advisor: Lei Wang @ IOP, CAS
-- **Thesis**: **Construction and contraction of two-dimensional tensor networks** (2024.6)
+[Download CV (PDF)](/files/Qi_Yang_CV.pdf) [q.yang2@uva.nl](mailto:q.yang2@uva.nl) [ORCID](https://orcid.org/0000-0002-7325-3100) [Google Scholar](https://t.ly/P9R_s) [GitHub](https://github.com/qiyang-ustc)
 
-### Bachelor in Theoretical Physics
-- University of Science and Technology of China, Hefei
-- 2015.9 – 2019.6
-- GPA: 3.79/4.3
-- Advisor: Youjin Deng @ USTC
+## Appointments and education
 
-## Work
+Sep 2024 - present
 
-### Postdoc Research
-- University of Amsterdam, Amsterdam, Theoretical Physics
-- 2024.9 – 2027.9
-- Supervisor: Philippe Corboz @ UvA
+### Postdoctoral researcher
 
-## Grants
+University of Amsterdam, Institute for Theoretical Physics. Supervisor: Philippe Corboz.
 
-- 2025.6 – 2026.7: **Principal Investigator**, EuroHPC Development Access Call. Awarded 14,000 NVIDIA H100 GPU hours.
+Sep 2019 - Jun 2024
 
-## Invited talks
+### Ph.D. in Theoretical Physics
 
-- 2026-07-27: How to talk to the Wish Machine?<br>
-  Harnessing Quantum 2026, online invited lecture (40 min).<br>
-  *Abstract. Why do seemingly all-powerful wish machines so often cause trouble in fiction and myth? They misinterpret human intentions and fulfill wishes in unexpected ways. Similar failures arise in AI-driven scientific research: systems may optimize the wrong objective, exploit a benchmark, or rely on an outdated proxy. Avoiding them requires learning how to communicate with the "wish machine" in the right language. In this talk, I will share practical lessons from developing algorithms for quantum many-body systems and discuss how AI may reshape future algorithm design.*<br>
-  [Program](https://giggleliu.github.io/summer-school-2026/program)
+Institute of Physics, Chinese Academy of Sciences. Advisor: Lei Wang. Thesis: Construction and contraction of two-dimensional tensor networks.
 
-- May 2026: iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs<br>
-  Invited seminar, Hangzhou, China
+Sep 2015 - Jun 2019
 
-- Apr 2026: Scalable iPEPS Simulations in the Era of AD and GPUs<br>
-  Invited seminar, Hefei, China
+### B.Sc. in Theoretical Physics
 
-- Apr 2026: When Corners Meet Edges: Emergent Algebra in 2D TN Boundaries<br>
-  Invited seminar, Beijing, China
+University of Science and Technology of China. Advisor: Youjin Deng. GPA: 3.79/4.3.
 
-- 2026-04-12: QRCTM: scalable iPEPS simulation for frustrated quantum magnets<br>
-  The 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China.<br>
-  Slides: [QRCTM for Frustrated Quantum Magnets (PDF)](./talk/2026QMBC_QRCTM.pdf)
+## Research interests
 
-- 2026-01-27: Scalable iPEPS Simulations in the Era of AD and GPUs<br>
-  Invited seminar talk, Ludwig Maximilian University of Munich, Germany.<br>
-  Slides: [Scalable iPEPS Simulations (PDF)](./talk/2026LMU_iPEPS.pdf)
+iMPS
 
-- 2026-01-14: Accelerating two-dimensional tensor network contractions using QR-decompositions<br>
-  Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.<br>
-  Slides: [QRCTM for Higher Spin Kitaev (PDF)](./talk/2026FIXNET.pdf)
+### Long-range systems
 
-## Contributed talks
+I develop variational iMPS methods that sum algebraically decaying interactions directly through transfer-matrix functions. This connects numerical linear algebra and stable differentiation to the study of long-range quantum systems and criticality.
 
-- 2025-10-10: Exploring the Ground States of Higher-Spin Kitaev Models via QR-Accelerated iPEPS simulation<br>
-  A Panorama of Tensor Networks, Krakow, Poland.<br>
-  Slides: [QRCTM for Honeycomb (PDF)](talk/QRCTMforHoneycomb.pdf?v=20251122)
+iPEPS
 
-## References
-- **Philippe Corboz** (Current Supervisor)
-  - Professor, Institute of Physics, University of Amsterdam
-  - Email: P.R.Corboz@uva.nl
+### Two-dimensional quantum matter
 
-- **Lei Wang**
-  - Professor, Institute of Physics, Chinese Academy of Sciences
-  - Email: wanglei@iphy.ac.cn
+I develop scalable iPEPS contraction and optimization algorithms, including QR-based CTMRG and preconditioning, and use them to study frustrated magnets, spin liquids, and the interplay of topological and symmetry-breaking orders.
 
-- **Hong-Hao Tu**
-  - Interim Professor, Ludwig-Maximilians-Universität München
-  - Email: h.tu@lmu.de
+## Publications
 
-## Open Source Projects (contributor)
-- [**QRCTM**](https://github.com/qiyang-ustc/QRCTM): Super-fast QRCTM algorithms for iPEPS contraction
-- [**Gaussian-fPEPS**](https://github.com/TensorBFS/Gaussian-fPEPS): Translate Gaussian-fPEPS to generic fPEPS
-- [**varbench**](https://github.com/varbench/varbench): Variational benchmarks for quantum many-body problems
-- [**TeneT.jl**](https://github.com/XingyuZhang2018/TeneT.jl): Two-dimensional infinite tensor network library
+[Full list: 7 journal articles and 1 preprint](/research/publications/)
 
+2026 · Preprint
+
+### [Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states](https://arxiv.org/abs/2606.20522)
+
+**Qi Yang**.
+
+Direct evaluation of algebraic interaction tails through iMPS transfer-matrix functions, without replacing the Hamiltonian by a finite sum of exponentials.
+
+[arXiv](https://arxiv.org/abs/2606.20522) [PDF](https://arxiv.org/pdf/2606.20522)
+
+2026 · PRL
+
+### [Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models](https://doi.org/10.1103/7q31-xxsd)
+
+Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Yuchi He. *Physical Review Letters 137, 176502 (2026).*
+
+Cross-validated tensor-network calculations identify distinct plaquette, topological dimer, and nontopological dimer orders in higher-spin Kitaev models.
+
+[DOI](https://doi.org/10.1103/7q31-xxsd) [arXiv](https://arxiv.org/abs/2511.07415) [PDF](https://arxiv.org/pdf/2511.07415)
+
+2026 · PRB
+
+### [Efficient iPEPS simulation on the honeycomb lattice via QR-based corner transfer matrix renormalization group](https://doi.org/10.1103/9gmp-byx8)
+
+**Qi Yang**, Philippe Corboz. *Physical Review B 113, 085109 (2026).*
+
+A QR-based CTMRG method tailored to the honeycomb lattice resolves the gapless Kitaev spin liquid and its algebraic dimer correlations.
+
+[DOI](https://doi.org/10.1103/9gmp-byx8)
+
+† Equal contribution.
+
+## Supervision and mentoring
+
+2024 - present
+
+### Yining Zhang, Ph.D. co-supervision
+
+University of Amsterdam; jointly with Philippe Corboz.
+
+2025 - present
+
+### Willem Herter, M.Sc. co-supervision
+
+University of Amsterdam; jointly with Philippe Corboz.
+
+## Research funding and computing
+
+2025 - 2026
+
+### Principal Investigator, EuroHPC Development Access
+
+Awarded 14,000 NVIDIA H100 GPU hours for large-scale tensor-network simulations.
+
+## Open-source software
+
+Personal projects and contributions to collaborative open-source software.
+
+### [QRCTM](https://github.com/qiyang-ustc/QRCTM)
+
+Reference implementation of QR-based CTMRG for efficient iPEPS contractions.
+
+### [omeinsum](https://github.com/qiyang-ustc/omeinsum)
+
+PyTorch tensor contractions with slicing, checkpointing, path optimization, and multi-GPU dispatch.
+
+### [jaxctmrg](https://github.com/qiyang-ustc/jaxctmrg)
+
+Pedagogical CTMRG implementation with automatic differentiation in JAX.
+
+### [Gaussian-fPEPS](https://github.com/TensorBFS/Gaussian-fPEPS)
+
+Tools for translating Gaussian fermionic PEPS into generic fPEPS.
+
+### [varbench](https://github.com/varbench/varbench)
+
+Collaborative benchmarks of variational methods for quantum many-body problems.
+
+### [TeneT.jl](https://github.com/XingyuZhang2018/TeneT.jl)
+
+Julia library for two-dimensional infinite tensor networks.
+
+## Technical expertise
+
+Methods
+
+### Tensor networks and numerical linear algebra
+
+iMPS, iPEPS, CTMRG, variational optimization, Krylov methods, preconditioning, and Monte Carlo.
+
+Computing
+
+### Differentiable and scalable scientific computing
+
+Automatic differentiation, GPU-accelerated tensor contractions, parallel computing, and Slurm workflows.
 
 ## Awards
-- 2022: Outstanding Scholarship, IOP, Excellent Prize (10%, 10000 Yuan)
-- 2019: Outstanding Students Scholarship, IOP, B-class (12000 Yuan)
-- 2018: Competition of Physical Experiments, USTC, Premium Prize
-- 2017: Academic scholarship, USTC, Silver Prize
-- 2016: Academic scholarship, USTC, Bronze Prize
-- 2014: Chinese Mathematics Olympiad, Anhui, Second Prize
-- 2014: Chinese Physics Olympiad, Anhui, First Prize
 
-## Skills
-- **Algorithms**: Tensor Network, Monte Carlo, Linear Algebra, Large Language Model
-- **Programming**: Automatic Differentiation, Parallel Computing
-- **OS**: Maintaining computing cluster (deployment and configuration of Slurm, Modules…)
+2022
 
-## Thesis
+### Outstanding Scholarship, IOP, Excellent Prize (top 10%)
 
-- 2024.6: **Construction and contraction of two-dimensional tensor networks**
+2019
+
+### Outstanding Students Scholarship, IOP, B-class
+
+2018
+
+### Competition of Physical Experiments, USTC, Premium Prize
+
+2017
+
+### Academic Scholarship, USTC, Silver Prize
+
+2016
+
+### Academic Scholarship, USTC, Bronze Prize
+
+2014
+
+### Chinese Physics Olympiad, Anhui, First Prize; Chinese Mathematics Olympiad, Anhui, Second Prize
+
+## Talks and lectures
+
+Invited seminars, conference presentations, and available slides are collected on the talks page, including Harnessing Quantum 2026, QMBC-2026, LMU Munich, ETH Zurich, and A Panorama of Tensor Networks.
+
+[All talks and slides](/talks/)
+
+## Academic references
+
+UvA
+
+### Philippe Corboz
+
+Current supervisor, University of Amsterdam.
+
+CAS
+
+### Lei Wang
+
+Ph.D. advisor, Institute of Physics, Chinese Academy of Sciences.
+
+LMU
+
+### Hong-Hao Tu
+
+Collaborator, Ludwig Maximilian University of Munich.
