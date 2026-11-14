@@ -8,7 +8,7 @@ Curriculum vitae
 
 Postdoctoral researcher at the University of Amsterdam, working with Philippe Corboz on tensor-network methods for quantum many-body physics.
 
-Amsterdam, The Netherlands · Updated 5 November 2026
+Amsterdam, The Netherlands · Updated 14 November 2026
 
 [Download CV (PDF)](/files/Qi_Yang_CV.pdf) [q.yang2@uva.nl](mailto:q.yang2@uva.nl) [ORCID](https://orcid.org/0000-0002-7325-3100) [Google Scholar](https://t.ly/P9R_s) [GitHub](https://github.com/qiyang-ustc)
 
@@ -48,39 +48,73 @@ I develop scalable iPEPS contraction and optimization algorithms, including QR-b
 
 ## Publications
 
-[Full list: 7 journal articles and 1 preprint](/research/publications/)
+[Publication record](/research/publications/)
+
+7 peer-reviewed journal articles and 1 preprint. † Equal contribution.
 
 2026 · Preprint
 
 ### [Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states](https://arxiv.org/abs/2606.20522)
 
-**Qi Yang**.
-
-Direct evaluation of algebraic interaction tails through iMPS transfer-matrix functions, without replacing the Hamiltonian by a finite sum of exponentials.
+**Qi Yang**. *arXiv:2606.20522 (2026).*
 
 [arXiv](https://arxiv.org/abs/2606.20522) [PDF](https://arxiv.org/pdf/2606.20522)
 
-2026 · PRL
+2026
 
 ### [Topological and Trivial Valence-Bond Orders in Higher-Spin Kitaev Models](https://doi.org/10.1103/7q31-xxsd)
 
 Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Yuchi He. *Physical Review Letters 137, 176502 (2026).*
 
-Cross-validated tensor-network calculations identify distinct plaquette, topological dimer, and nontopological dimer orders in higher-spin Kitaev models.
-
 [DOI](https://doi.org/10.1103/7q31-xxsd) [arXiv](https://arxiv.org/abs/2511.07415) [PDF](https://arxiv.org/pdf/2511.07415)
 
-2026 · PRB
+2026
+
+### [Accelerating two-dimensional tensor network contractions using QR decompositions](https://doi.org/10.1103/ptls-kr9z)
+
+Yining Zhang†, **Qi Yang**†, Philippe Corboz. *Physical Review B 113, L201106 (2026).*
+
+[DOI](https://doi.org/10.1103/ptls-kr9z) [arXiv](https://arxiv.org/abs/2505.00494) [PDF](https://arxiv.org/pdf/2505.00494)
+
+2026
+
+### [Accelerating two-dimensional tensor network optimization by preconditioning](https://doi.org/10.1103/h396-yc28)
+
+Xing-Yu Zhang†, **Qi Yang**†, Philippe Corboz, Jutho Haegeman, Wei Tang. *Physical Review B 113, 125111 (2026).*
+
+[DOI](https://doi.org/10.1103/h396-yc28)
+
+2026
 
 ### [Efficient iPEPS simulation on the honeycomb lattice via QR-based corner transfer matrix renormalization group](https://doi.org/10.1103/9gmp-byx8)
 
 **Qi Yang**, Philippe Corboz. *Physical Review B 113, 085109 (2026).*
 
-A QR-based CTMRG method tailored to the honeycomb lattice resolves the gapless Kitaev spin liquid and its algebraic dimer correlations.
-
 [DOI](https://doi.org/10.1103/9gmp-byx8)
 
-† Equal contribution.
+2025
+
+### [Alternating and Gaussian Fermionic Isometric Tensor Network States](https://doi.org/10.1103/8ypw-c8t4)
+
+Yantao Wu, Zhehao Dai, Sajant Anand, Sheng-Hsuan Lin, **Qi Yang**, Lei Wang, Frank Pollmann, Michael P. Zaletel. *PRX Quantum 6, 040324 (2025).*
+
+[DOI](https://doi.org/10.1103/8ypw-c8t4)
+
+2024
+
+### [Variational benchmarks for quantum many-body problems](https://doi.org/10.1126/science.adg9774)
+
+Dian Wu, Riccardo Rossi, Filippo Vicentini, Nikita Astrakhantsev, Federico Becca, Xiaodong Cao, Juan Carrasquilla, Francesco Ferrari, Antoine Georges, Mohamed Hibat-Allah, Masatoshi Imada, Andreas M Läuchli, Guglielmo Mazzola, Antonio Mezzacapo, Andrew Millis, Javier Robledo Moreno, Titus Neupert, Yusuke Nomura, Jannes Nys, Olivier Parcollet, Rico Pohle, Imelda Romero, Michael Schmid, J Maxwell Silvester, Sandro Sorella, Luca F Tocchio, Lei Wang, Steven R White, Alexander Wietek, **Qi Yang**, Yiqi Yang, Shiwei Zhang, Giuseppe Carleo. *Science 386, 296-301 (2024).*
+
+[DOI](https://doi.org/10.1126/science.adg9774)
+
+2023
+
+### [Projected d-wave superconducting state: A fermionic projected entangled pair state study](https://doi.org/10.1103/PhysRevB.107.125128)
+
+**Qi Yang**, Xing-Yu Zhang, Hai-Jun Liao, Hong-Hao Tu, Lei Wang. *Physical Review B 107, 125128 (2023).*
+
+[DOI](https://doi.org/10.1103/PhysRevB.107.125128)
 
 ## Supervision and mentoring
 
@@ -174,9 +208,65 @@ Automatic differentiation, GPU-accelerated tensor contractions, parallel computi
 
 ## Talks and lectures
 
-Invited seminars, conference presentations, and available slides are collected on the talks page, including Harnessing Quantum 2026, QMBC-2026, LMU Munich, ETH Zurich, and A Panorama of Tensor Networks.
+[Talks and slides](/talks/)
 
-[All talks and slides](/talks/)
+2026-07-27
+
+### How to talk to the Wish Machine?
+
+Harnessing Quantum 2026, online invited lecture (40 min).
+
+[Program](https://giggleliu.github.io/summer-school-2026/program)
+
+May 2026
+
+### iPEPS Simulations of 2D Strongly Correlated Systems in the Era of AD and GPUs
+
+Invited seminar, Hangzhou, China.
+
+Apr 2026
+
+### Scalable iPEPS Simulations in the Era of AD and GPUs
+
+Invited seminar, Hefei, China.
+
+Apr 2026
+
+### When Corners Meet Edges: Emergent Algebra in 2D TN Boundaries
+
+Invited seminar, Beijing, China.
+
+2026-04-12
+
+### QRCTM: scalable iPEPS simulation for frustrated quantum magnets
+
+Invited presentation, 14th Workshop on Quantum Many-Body Computation (QMBC-2026), Beijing, China.
+
+[Slides](/talk/2026QMBC_QRCTM.pdf)
+
+2026-01-27
+
+### Scalable iPEPS Simulations in the Era of AD and GPUs
+
+Invited seminar talk, Ludwig Maximilian University of Munich, Germany.
+
+[Slides](/talk/2026LMU_iPEPS.pdf)
+
+2026-01-14
+
+### Accelerating two-dimensional tensor network contractions using QR-decompositions
+
+Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.
+
+[Slides](/talk/2026FIXNET.pdf)
+
+2025-10-10
+
+### Exploring the Ground States of Higher-Spin Kitaev Models via QR-Accelerated iPEPS simulation
+
+A Panorama of Tensor Networks, Krakow, Poland.
+
+[Slides](/talk/QRCTMforHoneycomb.pdf?v=20251122)
 
 ## Academic references
 
