@@ -21,6 +21,16 @@ I develop tensor-network methods for quantum many-body physics, from long-range 
 
 2026 · Preprint
 
+### [Transfer-Matrix Calculus for Infinite Matrix Product States](https://arxiv.org/abs/2611.18427)
+
+**Qi Yang**, Philippe Corboz. *arXiv:2611.18427 (2026).*
+
+A framework for infinite-MPS ground states, excitations, and variances that treats long-range interactions directly through transfer matrices.
+
+[arXiv](https://arxiv.org/abs/2611.18427) [PDF](https://arxiv.org/pdf/2611.18427)
+
+2026 · Preprint
+
 ### [Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states](https://arxiv.org/abs/2606.20522)
 
 **Qi Yang**.
