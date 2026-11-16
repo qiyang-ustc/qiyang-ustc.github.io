@@ -87,6 +87,8 @@ for item in preprints:
 
 story += [PageBreak(),p('Talks and academic activities','title')]
 for category,label in [('invited','Invited talks and lectures'),('workshop','Workshop talk'),('contributed','Contributed talk')]:
+    if not any(t['category']==category for t in DATA['talks']):
+        continue
     story.append(p(label,'heading'))
     for t in DATA['talks']:
         if t['category']!=category:

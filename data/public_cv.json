@@ -226,7 +226,7 @@
     {
       "date": "2026-01-14",
       "title": "Accelerating two-dimensional tensor network contractions using QR-decompositions",
-      "venue": "Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.",
+      "venue": "Invited workshop talk, Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.",
       "links": [
         [
           "Slides",
@@ -234,7 +234,7 @@
         ]
       ],
       "abstract": "",
-      "category": "workshop"
+      "category": "invited"
     },
     {
       "date": "2025-10-10",
