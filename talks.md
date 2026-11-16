@@ -54,13 +54,11 @@ Invited seminar talk, Ludwig Maximilian University of Munich, Germany.
 
 [Slides](/talk/2026LMU_iPEPS.pdf)
 
-## Workshop talks
-
 2026-01-14
 
 ### Accelerating two-dimensional tensor network contractions using QR-decompositions
 
-Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.
+Invited workshop talk, Fixed-Point Optimization in Tensor Networks for Quantum Matter, ETH Zurich, Switzerland.
 
 [Slides](/talk/2026FIXNET.pdf)
 
