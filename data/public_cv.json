@@ -1,6 +1,20 @@
 {
-  "updated": "5 November 2026",
+  "updated": "16 November 2026",
   "publications": [
+    {
+      "title": "Transfer-Matrix Calculus for Infinite Matrix Product States",
+      "url": "https://arxiv.org/abs/2611.18427",
+      "authors": "<strong>Qi Yang</strong>, Philippe Corboz",
+      "year": "2026",
+      "links": [
+        ["arXiv", "https://arxiv.org/abs/2611.18427"],
+        ["PDF", "https://arxiv.org/pdf/2611.18427"]
+      ],
+      "citation": "arXiv:2611.18427 (2026)",
+      "status": "Preprint",
+      "authors_text": "Qi Yang, Philippe Corboz",
+      "summary": "A framework for infinite-MPS ground states, excitations, and variances that treats long-range interactions directly through transfer matrices."
+    },
     {
       "title": "Transfer-matrix functions for algebraically decaying interactions in variational infinite matrix product states",
       "url": "https://arxiv.org/abs/2606.20522",

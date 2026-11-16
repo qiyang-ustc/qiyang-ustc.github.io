@@ -8,7 +8,7 @@ Curriculum vitae
 
 Postdoctoral researcher at the University of Amsterdam, working with Philippe Corboz on tensor-network methods for quantum many-body physics.
 
-Amsterdam, The Netherlands · Updated 14 November 2026
+Amsterdam, The Netherlands · Updated 16 November 2026
 
 [Download CV (PDF)](/files/Qi_Yang_CV.pdf) [q.yang2@uva.nl](mailto:q.yang2@uva.nl) [ORCID](https://orcid.org/0000-0002-7325-3100) [Google Scholar](https://t.ly/P9R_s) [GitHub](https://github.com/qiyang-ustc)
 
@@ -50,7 +50,15 @@ I develop scalable iPEPS contraction and optimization algorithms, including QR-b
 
 [Publication record](/research/publications/)
 
-7 peer-reviewed journal articles and 1 preprint. † Equal contribution.
+7 peer-reviewed journal articles and 2 preprints. † Equal contribution.
+
+2026 · Preprint
+
+### [Transfer-Matrix Calculus for Infinite Matrix Product States](https://arxiv.org/abs/2611.18427)
+
+**Qi Yang**, Philippe Corboz. *arXiv:2611.18427 (2026).*
+
+[arXiv](https://arxiv.org/abs/2611.18427) [PDF](https://arxiv.org/pdf/2611.18427)
 
 2026 · Preprint
 

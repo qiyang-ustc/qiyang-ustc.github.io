@@ -72,16 +72,18 @@ story.append(p('Personal projects and contributions to collaborative software.',
 for s in DATA['software']:
     story.append(p('<b>'+link(s['name'],s['url'])+'</b> - '+escape(s['description']),'small'))
 
-story += [PageBreak(),p('Publications','title'),p('7 journal articles and 1 preprint. † Equal contribution.','small'),p('Journal articles','heading')]
-for index,item in enumerate(DATA['publications'][1:],1):
+journal_articles = [item for item in DATA['publications'] if item['status'] == 'Published']
+preprints = [item for item in DATA['publications'] if item['status'] == 'Preprint']
+story += [PageBreak(),p('Publications','title'),p(f'{len(journal_articles)} journal articles and {len(preprints)} preprints. † Equal contribution.','small'),p('Journal articles','heading')]
+for index,item in enumerate(journal_articles,1):
     authors=item['authors']
     if item['citation'].startswith('Science'):
         authors='Dian Wu, Riccardo Rossi, Filippo Vicentini, <i>et al.</i> (including <b>Qi Yang</b>)'
     block=[p(f'<b>{index}.</b> '+authors+'.'),p('<b>'+escape(item['title'])+'</b>'),p(escape(item['citation'])+'. '+link('DOI: '+item['url'].removeprefix('https://doi.org/'),item['url']),'small'),Spacer(1,8)]
     story.append(KeepTogether(block))
-story.append(p('Preprint','heading'))
-item=DATA['publications'][0]
-story.append(KeepTogether([p('<b>Qi Yang.</b>'),p('<b>'+escape(item['title'])+'</b>'),p(link(item['citation'],item['url']),'small')]))
+story.append(p('Preprints','heading'))
+for item in preprints:
+    story.append(KeepTogether([p(item['authors']+'.'),p('<b>'+escape(item['title'])+'</b>'),p(link(item['citation'],item['url']),'small'),Spacer(1,6)]))
 
 story += [PageBreak(),p('Talks and academic activities','title')]
 for category,label in [('invited','Invited talks and lectures'),('workshop','Workshop talk'),('contributed','Contributed talk')]:

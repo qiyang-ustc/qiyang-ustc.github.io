@@ -6,11 +6,19 @@ Research record
 
 # Publications
 
-7 peer-reviewed journal articles and 1 preprint. Research on tensor-network algorithms, quantum spin liquids, frustrated magnets, and long-range quantum systems.
+7 peer-reviewed journal articles and 2 preprints. Research on tensor-network algorithms, quantum spin liquids, frustrated magnets, and long-range quantum systems.
 
-† Equal contribution. Updated 5 November 2026.
+† Equal contribution. Updated 16 November 2026.
 
 ## Preprints
+
+2026
+
+### [Transfer-Matrix Calculus for Infinite Matrix Product States](https://arxiv.org/abs/2611.18427)
+
+**Qi Yang**, Philippe Corboz. *arXiv:2611.18427 (2026)*.
+
+[arXiv](https://arxiv.org/abs/2611.18427) [PDF](https://arxiv.org/pdf/2611.18427)
 
 2026
 
